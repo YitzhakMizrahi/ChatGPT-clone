@@ -1,0 +1,15 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "vsicons.associations.files": [
+    {
+      "icon": "config",
+      "extensions": [".env.local", ".env.local.example"],
+      "format": "svg"
+    }
+  ],
+  "files.associations": {
+    "**/.env.local": "dotenv",
+    "**/.env.local.example": "dotenv"
+  }
+}
